@@ -21,14 +21,14 @@ HOW TO RUN: Tested using Python 3.4.0
                                      
     Command Line Arguments (for more information on the term definitions please see website above):
         --source_gff:	The gff3 file
-        --seqid:	1st column in GFF3 
-        --source:	2nd column
-        --type:		3rd column
-        --start:	4th column
-        --end:		5th column
-        --score:	6th column
-        --strand:	7th column
-        --phase:	8th column
+        --seqid:        1st column in GFF3 
+        --source:       2nd column
+        --type:         3rd column
+        --start:        4th column
+        --end:          5th column
+        --score:        6th column
+        --strand:       7th column
+        --phase:        8th column
         --attribute + --value:	9th column which has a key=value pair description
 
 AUTHOR: Kim Lauer
