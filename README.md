@@ -1,6 +1,7 @@
 PROJECT TITLE: export_gff3_feature.py 
 
 PURPOSE: Computer Concepts Final Question #5
+
 	 Extracting information from GFF3 Files (version 1.23) as described by Lincoln Stein
          Description of file format can be found at 
 	 https://github.com/The-Sequence-Ontology/Specifications/blob/master/gff3.md 
