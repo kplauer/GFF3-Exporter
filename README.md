@@ -1,16 +1,14 @@
-PROJECT TITLE: export_gff3_feature.py 
+Extracts Information from GFF3 files (version 1.23) as described by Lincoln Stein 
+    Description of file format can be found at -
+    https://github.com/The-Sequence-Ontology/Specifications/blob/master/gff3.md 
 
-PURPOSE: Computer Concepts Final Question #5
+Project created for Computer Concepts Final Question #5
 
-	 Extracting information from GFF3 Files (version 1.23) as described by Lincoln Stein
-	 Description of file format can be found at 
-	 https://github.com/The-Sequence-Ontology/Specifications/blob/master/gff3.md 
+Originally Created: August 22, 2015
 
-DATE: August 22, 2015
+Tested using Python 3.4.0
 
-HOW TO RUN: Tested using Python 3.4.0
-
-    Example:
+Example:
         $ export_gff3_feature.py --source_gff=/path/to/some.gff3 --type=gene --attribute=ID --value=YAR003W
         This will parse the gff3 file to find a gene with the ID YAR003W and print out the corresponding sequence
         Outputs to screen:              
